@@ -11,7 +11,7 @@ Key business questions:
 - How does driver behavior impact efficiency and on-time performance?
 - Which drivers require performance improvement or operational adjustments?
 
-3. Data Quality Checks
+## 2. DataSet
 
 The dataset is based on a logistics database containing information about trips, drivers, fuel consumption, and delivery performance.
 
@@ -29,12 +29,10 @@ These tables are joined using primary and foreign keys to create a unified datas
 
 ## 3. Data Quality Checks
 
-During data validation, missing values were identified in the `driver_id` field across multiple tables, including `trips`, `fuel_purchases`, and `safety_incidents`.
-
-Since `driver_id` is a critical key used to attribute performance metrics, the following steps were taken:
-
-- Records with missing `driver_id` in the `trips` table were excluded, as they could not be reliably assigned to any driver and would distort driver-level analysis.
-- For related tables (`fuel_purchases`, `safety_incidents`), records were only included if they could be linked to a valid `trip_id` with a known `driver_id`.
+- Identifying missing values in critical fields
+- Checking for duplicate records using primary keys
+- Validating data types and logical values (e.g., non-negative cost and distance values)
+- During data validation, missing values were identified in the `driver_id` field across multiple tables, including `trips`, `fuel_purchases`, and `safety_incidents`. Since `driver_id` is a critical key used to attribute performance metrics, Records with missing `driver_id` were excluded, as they could not be reliably assigned to any driver and would distort driver-level analysis.
 - This ensured that all cost and incident data used in the analysis were correctly attributed to drivers.
 
 The impact of removing these records was assessed and found to be minimal relative to the total dataset size. All exclusions were documented to maintain transparency.
