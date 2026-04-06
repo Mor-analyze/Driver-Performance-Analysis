@@ -16,7 +16,6 @@ Key business questions:
 The dataset is based on a logistics database containing information about trips, drivers, fuel consumption, and delivery performance.
 
 Main tables used:
-اگر چیز دیگه ای استفاده کردم اینجا اضافه کنم
 - drivers: driver details and identifiers
 - trips: trip-level data including distance, duration, and assignments
 - loads: revenue information per trip
