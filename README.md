@@ -39,6 +39,7 @@ Since `driver_id` is a critical key used to attribute performance metrics, the f
 
 The impact of removing these records was assessed and found to be minimal relative to the total dataset size. All exclusions were documented to maintain transparency.
 
+The full analysis, including data preparation and exploration, is available in the Jupyter Notebook within this repository.
 
 ## 4. SQL Analysis
 
