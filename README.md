@@ -78,8 +78,11 @@ Output
 
 <img width="781" height="199" alt="Screenshot 2026-04-14 164844" src="https://github.com/user-attachments/assets/68dc0ab8-037a-4c5b-ac1d-c1c41c378c92" />
 
+## 5. Visualization
 
-## 6. Insight
+
+
+## 6. Insights
 1. relation ship between fuel cost and totile miles is leanir and all the dots close to the leanir line.
 2. fuel cost and profit for driver ID 12 is out of normal. 
 
