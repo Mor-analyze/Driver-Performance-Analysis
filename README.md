@@ -38,26 +38,6 @@ The full analysis, including data preparation and exploration, is available in t
 ## 4. SQL Analysis
 The goal of this step was to evaluate driver performance and identify high-performing and underperforming drivers. By aggregating operational and financial data at the driver level, this analysis enables:
 
-I’m going to treat “driver performance” as four pillars:
-
-1) Service / reliability
-From TRIPS + DELIVERY_EVENTS (and sometimes LOADS)
-Key metrics: on-time %, avg delay minutes, late deliveries per 100 stops, cancellations/failed deliveries.
-
-2) Productivity
-From TRIPS + LOADS
-Key metrics: miles per day/week, loads per week, utilization (driving hours vs available), empty miles % (if present).
-
-3) Cost efficiency
-From FUEL_PURCHASES + TRIPS
-Key metrics: fuel cost per mile, MPG (if gallons + miles exist), fuel spend per trip, outlier fuel events.
-
-4) Safety & compliance
-From SAFETY_INCIDENTS (optionally MAINTENANCE_RECORDS if driver-linked)
-Key metrics: incident rate per 10k miles, severity-weighted incident score, preventable incidents.
-
-
----------------
 Identification of low-profit or loss-making drivers
 Detection of cost inefficiencies (e.g., high fuel cost per mile)
 Evaluation of operational performance through on-time delivery rates
@@ -102,7 +82,7 @@ Output
 
 
 
-## 6. Insights
+## 6. Insights (not modified)
 1. relation ship between fuel cost and totile miles is leanir and all the dots close to the leanir line.
 2. fuel cost and profit for driver ID 12 is out of normal. 
 
