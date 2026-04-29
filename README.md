@@ -80,15 +80,18 @@ Output
 
 ## 5. Visualization
 
+<img width="671" height="383" alt="image" src="https://github.com/user-attachments/assets/3ff76a7f-f130-4f5d-8fab-5a5a79fbd43b" />
+
 
 
 ## 6. Insights (not modified)
-1. relation ship between fuel cost and totile miles is leanir and all the dots close to the leanir line.
-2. fuel cost and profit for driver ID 12 is out of normal. 
+- Only ~7% of drivers fall below a 60% profit margin, indicating that overall driver performance is strong with minimal low-performing outliers.
+- There is no clear relationship between on-time delivery rate and profit margin, indicating that operational punctuality is not currently a key driver of profitability.
+- The top drivers with the highest at-fault incident damage costs are also part of the lower-performing segment, highlighting a link between safety issues and reduced profitability.
+- No loss-making drivers were identified, meaning the opportunity lies in optimizing performance rather than eliminating unprofitable drivers.
+- The scatter plot shows a negative relationship between total miles and fuel cost per mile, indicating that drivers covering longer distances tend to operate more efficiently in terms of fuel consumption.
 
-recommendation
+## 7.Recommendation
 
 
-👉 You design ONE analysis that answers all of them together
-👉 Each question = one visual or insight
 
