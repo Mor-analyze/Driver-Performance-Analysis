@@ -84,14 +84,13 @@ Output
 
 
 
-## 6. Insights (not modified)
+## 6. Insights
 - Only ~7% of drivers fall below a 60% profit margin, indicating that overall driver performance is strong with minimal low-performing outliers.
 - There is no clear relationship between on-time delivery rate and profit margin, indicating that operational punctuality is not currently a key driver of profitability.
 - The top drivers with the highest at-fault incident damage costs are also part of the lower-performing segment, highlighting a link between safety issues and reduced profitability.
 - No loss-making drivers were identified, meaning the opportunity lies in optimizing performance rather than eliminating unprofitable drivers.
 - The scatter plot shows a negative relationship between total miles and fuel cost per mile, indicating that drivers covering longer distances tend to operate more efficiently in terms of fuel consumption.
 
-## 7.Recommendation
 
 
 
