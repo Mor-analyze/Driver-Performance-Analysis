@@ -75,13 +75,11 @@ order by profit_margin desc
 Full SQL logic is available in the /sql folder.
 
 Output
+![output-Screenshot](output-Screenshot.png)
 
-<img width="781" height="199" alt="Screenshot 2026-04-14 164844" src="https://github.com/user-attachments/assets/68dc0ab8-037a-4c5b-ac1d-c1c41c378c92" />
 
-## 5. Visualization
-
-<img width="671" height="383" alt="image" src="https://github.com/user-attachments/assets/3ff76a7f-f130-4f5d-8fab-5a5a79fbd43b" />
-
+## 5. Dashboard
+![Dashboard-ScreenShot](Dashboard-ScreenShot.png)
 
 
 ## 6. Insights
