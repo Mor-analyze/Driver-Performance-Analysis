@@ -58,13 +58,13 @@ SQL code:
 select 
 	r.driver_id, 
 	r.total_revenue , 
-	f.feul_cost ,
+	f.fuel_cost ,
 	m.total_miles,
-	(f.feul_cost / nullif(m.total_miles,0)) as fuel_cost_per_mile,
+	(f.fuel_cost / nullif(m.total_miles,0)) as fuel_cost_per_mile,
 	d.total_damage_cost , 
 	d.NumberOFincidents,
-	(r.total_revenue-f.feul_cost - d.total_damage_cost) as profit,
-	((r.total_revenue-f.feul_cost - d.total_damage_cost)/r.total_revenue)*100 as profit_margin,
+	(r.total_revenue-f.fuel_cost - d.total_damage_cost) as profit,
+	((r.total_revenue-f.fuel_cost - d.total_damage_cost)/r.total_revenue)*100 as profit_margin,
 	r.avg_on_time_delivery_rate
 from revenue_per_driver r 
 join fuel_cost_per_driver f on r.driver_id = f.driver_id
